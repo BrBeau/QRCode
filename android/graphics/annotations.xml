@@ -1,0 +1,6 @@
+<root>
+    <item name='android.graphics.Canvas ALL_SAVE_FLAG'>
+        <annotation name='org.jetbrains.annotations.Nullable' />
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
