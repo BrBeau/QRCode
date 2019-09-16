@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">DefineUI</string>
     <string name="title_activity_test">TestActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">测试国际化</string>
+    <string name="layout_test">加载布局</string>
+    <string name="title_pay_center">充值中心</string>
 </resources>

@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
         android:id="@+id/btn_qrCode"
         android:layout_width="match_parent"
@@ -14,16 +15,39 @@
         android:textAllCaps="false"/>
 
     <Button
-        android:id="@+id/btn_register"
+        android:id="@+id/btn_callback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="undefine"
+        android:text="CallbackTest"
         android:layout_marginTop="10dp"
         android:textAllCaps="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_checkInternet"
+        android:text="@string/hello_blank_fragment"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/qrCode"/>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView_btn"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_test"
+        android:text="@string/layout_test"/>
 
 </LinearLayout>
